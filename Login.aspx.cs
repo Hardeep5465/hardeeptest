@@ -9,17 +9,17 @@ using System.Web.UI.DataVisualization.Charting;
 using System.IO;
 using System.Net;
 using System.Net.Mail;
-//using System.Data;
+using System.Data;
 using System.Drawing;
 using System.Configuration;
-//using MySql.Data.MySqlClient;
+using MySql.Data.MySqlClient;
 using System.Web.Security;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 
 public partial class Login : System.Web.UI.Page
 {
-/*    protected void Page_Load(object sender, EventArgs e)
+    protected void Page_Load(object sender, EventArgs e)
     {
 
         Response.Cache.SetCacheability(HttpCacheability.NoCache);
@@ -2398,5 +2398,5 @@ public partial class Login : System.Web.UI.Page
     {
         personlist.SelectedValue = "";
     }
-*/
+
 }
