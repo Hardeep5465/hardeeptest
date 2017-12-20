@@ -4,8 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using MySql.Data.MySqlClient;
-using System.Data;
+//using MySql.Data.MySqlClient;
+//using System.Data;
 using System.Text;
 using System.Security.Cryptography;
 using System.Reflection;
@@ -14,7 +14,7 @@ using System.Web.UI.HtmlControls;
 
 public partial class _Default : System.Web.UI.Page
 {
-    MySql.Data.MySqlClient.MySqlConnection con;
+/*    MySql.Data.MySqlClient.MySqlConnection con;
     MySql.Data.MySqlClient.MySqlCommand cmd;
     MySql.Data.MySqlClient.MySqlDataReader reader;
     string querystr;
@@ -363,7 +363,7 @@ public partial class _Default : System.Web.UI.Page
 
 
   }*/
-
+/*
 //new code
 class InvalidHashException : Exception
 {
@@ -587,7 +587,7 @@ class PasswordStorage
             pbkdf2.IterationCount = iterations;
             return pbkdf2.GetBytes(outputBytes);
         }
-    }
+    }*/
 }
 
 
