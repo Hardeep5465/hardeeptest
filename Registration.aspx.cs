@@ -5,11 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.IO;
-using System.Net;
-using System.Net.Mail;
-using System.Data;
+//using System.Net;
+//using System.Net.Mail;
+//using System.Data;
 using System.Configuration;
-using MySql.Data.MySqlClient;
+//using MySql.Data.MySqlClient;
 using System.Web.Security;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
@@ -20,7 +20,7 @@ using System.Security.Cryptography;
 public partial class Registration : System.Web.UI.Page
 {
 
-    MySql.Data.MySqlClient.MySqlConnection con;
+ /*   MySql.Data.MySqlClient.MySqlConnection con;
     MySql.Data.MySqlClient.MySqlCommand cmd;
     string querystr;
     protected void Page_Load(object sender, EventArgs e)
@@ -127,7 +127,7 @@ public partial class Registration : System.Web.UI.Page
               */
 
     //code for SHA algorithm
-    class InvalidHashException : Exception
+/*    class InvalidHashException : Exception
     {
         public InvalidHashException() { }
         public InvalidHashException(string message)
@@ -350,7 +350,7 @@ public partial class Registration : System.Web.UI.Page
                 return pbkdf2.GetBytes(outputBytes);
             }
         }
-    }
+    }*/
 }
 
 
