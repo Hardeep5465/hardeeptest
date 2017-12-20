@@ -4,15 +4,15 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using MySql.Data;
+//using MySql.Data;
 using System.Data;
 using System.Configuration;
-using MySql.Data.MySqlClient;
+//using MySql.Data.MySqlClient;
 using System.Web.Security;
 
 public partial class Default2 : System.Web.UI.Page
 {
-    MySql.Data.MySqlClient.MySqlConnection con;
+  /* MySql.Data.MySqlClient.MySqlConnection con;
     MySql.Data.MySqlClient.MySqlCommand cmd;
     MySql.Data.MySqlClient.MySqlDataReader reader;
     string querystr;
@@ -28,7 +28,7 @@ public partial class Default2 : System.Web.UI.Page
         activateuser();
     }
 
-    private void activateuser()
+  /*  private void activateuser()
     {
 
         try
@@ -78,6 +78,7 @@ public partial class Default2 : System.Web.UI.Page
                 con.Close();
         }
     }
+    */
 }
 
 
