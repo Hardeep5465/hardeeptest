@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.IO;
-using System.Data;
+//using System.Data;
 using System.Configuration;
-using MySql.Data.MySqlClient;
+//using MySql.Data.MySqlClient;
 using System.Web.Security;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
@@ -16,7 +16,7 @@ using System.Text;
 
 public partial class Group : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
+  /*  protected void Page_Load(object sender, EventArgs e)
     {
 
 
@@ -88,7 +88,7 @@ public partial class Group : System.Web.UI.Page
             {
                 MySqlCommand cmd = new MySqlCommand("INSERT INTO mydatabase.divya(DateofExpense,NameofItem,PriceofItem) values(@DateofExpense,@NameofItem,@PriceOfItem)", sc);
                 /*      string query1 = "INSERT INTO mydatabase.dateofpurchase(Product_Id,DateofPurchase,PriceOfItem)" + " VALUES(@Product_Id,@DateofPurchase,@PriceOfItem)"; */
-                cmd.Parameters.AddWithValue("@DateofExpense", st);
+/*                cmd.Parameters.AddWithValue("@DateofExpense", st);
                 cmd.Parameters.AddWithValue("@NameofItem", nameofitem.Text);
                 cmd.Parameters.AddWithValue("@PriceofItem", newprice);
 
@@ -100,7 +100,7 @@ public partial class Group : System.Web.UI.Page
             {
                 MySqlCommand cmd = new MySqlCommand("INSERT INTO mydatabase.jyotsna(DateofExpense,NameofItem,PriceofItem) values(@DateofExpense,@NameofItem,@PriceOfItem)", sc);
                 /*      string query1 = "INSERT INTO mydatabase.dateofpurchase(Product_Id,DateofPurchase,PriceOfItem)" + " VALUES(@Product_Id,@DateofPurchase,@PriceOfItem)"; */
-                cmd.Parameters.AddWithValue("@DateofExpense", st);
+/*                cmd.Parameters.AddWithValue("@DateofExpense", st);
                 cmd.Parameters.AddWithValue("@NameofItem", nameofitem.Text);
                 cmd.Parameters.AddWithValue("@PriceofItem", newprice);
 
@@ -112,7 +112,7 @@ public partial class Group : System.Web.UI.Page
             {
                 MySqlCommand cmd = new MySqlCommand("INSERT INTO mydatabase.keshvam(DateofExpense,NameofItem,PriceofItem) values(@DateofExpense,@NameofItem,@PriceOfItem)", sc);
                 /*      string query1 = "INSERT INTO mydatabase.dateofpurchase(Product_Id,DateofPurchase,PriceOfItem)" + " VALUES(@Product_Id,@DateofPurchase,@PriceOfItem)"; */
-                cmd.Parameters.AddWithValue("@DateofExpense", st);
+ /*               cmd.Parameters.AddWithValue("@DateofExpense", st);
                 cmd.Parameters.AddWithValue("@NameofItem", nameofitem.Text);
                 cmd.Parameters.AddWithValue("@PriceofItem", newprice);
 
@@ -124,7 +124,7 @@ public partial class Group : System.Web.UI.Page
             {
                 MySqlCommand cmd = new MySqlCommand("INSERT INTO mydatabase.mitali(DateofExpense,NameofItem,PriceofItem) values(@DateofExpense,@NameofItem,@PriceOfItem)", sc);
                 /*      string query1 = "INSERT INTO mydatabase.dateofpurchase(Product_Id,DateofPurchase,PriceOfItem)" + " VALUES(@Product_Id,@DateofPurchase,@PriceOfItem)"; */
-                cmd.Parameters.AddWithValue("@DateofExpense", st);
+/*                cmd.Parameters.AddWithValue("@DateofExpense", st);
                 cmd.Parameters.AddWithValue("@NameofItem", nameofitem.Text);
                 cmd.Parameters.AddWithValue("@PriceofItem", newprice);
 
@@ -136,7 +136,7 @@ public partial class Group : System.Web.UI.Page
             {
                 MySqlCommand cmd = new MySqlCommand("INSERT INTO mydatabase.monika(DateofExpense,NameofItem,PriceofItem) values(@DateofExpense,@NameofItem,@PriceOfItem)", sc);
                 /*      string query1 = "INSERT INTO mydatabase.dateofpurchase(Product_Id,DateofPurchase,PriceOfItem)" + " VALUES(@Product_Id,@DateofPurchase,@PriceOfItem)"; */
-                cmd.Parameters.AddWithValue("@DateofExpense", st);
+ /*               cmd.Parameters.AddWithValue("@DateofExpense", st);
                 cmd.Parameters.AddWithValue("@NameofItem", nameofitem.Text);
                 cmd.Parameters.AddWithValue("@PriceofItem", newprice);
 
@@ -148,7 +148,7 @@ public partial class Group : System.Web.UI.Page
             {
                 MySqlCommand cmd = new MySqlCommand("INSERT INTO mydatabase.navdeep(DateofExpense,NameofItem,PriceofItem) values(@DateofExpense,@NameofItem,@PriceOfItem)", sc);
                 /*      string query1 = "INSERT INTO mydatabase.dateofpurchase(Product_Id,DateofPurchase,PriceOfItem)" + " VALUES(@Product_Id,@DateofPurchase,@PriceOfItem)"; */
-                cmd.Parameters.AddWithValue("@DateofExpense", st);
+   /*             cmd.Parameters.AddWithValue("@DateofExpense", st);
                 cmd.Parameters.AddWithValue("@NameofItem", nameofitem.Text);
                 cmd.Parameters.AddWithValue("@PriceofItem", newprice);
 
@@ -160,7 +160,7 @@ public partial class Group : System.Web.UI.Page
             {
                 MySqlCommand cmd = new MySqlCommand("INSERT INTO mydatabase.neeraj(DateofExpense,NameofItem,PriceofItem) values(@DateofExpense,@NameofItem,@PriceOfItem)", sc);
                 /*      string query1 = "INSERT INTO mydatabase.dateofpurchase(Product_Id,DateofPurchase,PriceOfItem)" + " VALUES(@Product_Id,@DateofPurchase,@PriceOfItem)"; */
-                cmd.Parameters.AddWithValue("@DateofExpense", st);
+/*                cmd.Parameters.AddWithValue("@DateofExpense", st);
                 cmd.Parameters.AddWithValue("@NameofItem", nameofitem.Text);
                 cmd.Parameters.AddWithValue("@PriceofItem", newprice);
 
@@ -172,7 +172,7 @@ public partial class Group : System.Web.UI.Page
             {
                 MySqlCommand cmd = new MySqlCommand("INSERT INTO mydatabase.seema(DateofExpense,NameofItem,PriceofItem) values(@DateofExpense,@NameofItem,@PriceOfItem)", sc);
                 /*      string query1 = "INSERT INTO mydatabase.dateofpurchase(Product_Id,DateofPurchase,PriceOfItem)" + " VALUES(@Product_Id,@DateofPurchase,@PriceOfItem)"; */
-                cmd.Parameters.AddWithValue("@DateofExpense", st);
+ /*               cmd.Parameters.AddWithValue("@DateofExpense", st);
                 cmd.Parameters.AddWithValue("@NameofItem", nameofitem.Text);
                 cmd.Parameters.AddWithValue("@PriceofItem", newprice);
 
@@ -209,7 +209,7 @@ public partial class Group : System.Web.UI.Page
             if (item.Selected)
                 item.Selected = false;
         }
-    }
+    }*/
 }
 
 
