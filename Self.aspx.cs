@@ -5,11 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.IO;
-using System.Net;
-using System.Net.Mail;
-using System.Data;
+//using System.Net;
+//using System.Net.Mail;
+//using System.Data;
 using System.Configuration;
-using MySql.Data.MySqlClient;
+//using MySql.Data.MySqlClient;
 using System.Web.Security;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
@@ -18,7 +18,7 @@ using System.Web.UI.HtmlControls;
 
 public partial class Self : System.Web.UI.Page
 {
-    MySql.Data.MySqlClient.MySqlConnection con;
+/*    MySql.Data.MySqlClient.MySqlConnection con;
     MySql.Data.MySqlClient.MySqlCommand cmd;
     string querystrone;
     string querystrtwo;
@@ -250,7 +250,7 @@ public partial class Self : System.Web.UI.Page
         {
             disalbenewiteminputs();
         }
-    }
+    }*/
 }
 
 
